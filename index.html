@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Poiret+One|Questrial" rel="stylesheet">
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <meta charset="UTF-8">
+    <title>sashavaster</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: 'Questrial', sans-serif;
+            font-family: 'Poiret One', cursive;
+        }
+        h2 {
+            font-style: italic;
+        }
+        html, body {
+            height: 100%;
+        }
+
+        .page-wrapper {
+            min-height: 100%;
+            margin-bottom: -100px;
+        }
+        .menu {
+            height: 50px;
+            position: fixed;
+        }
+        .footer {
+            height: 50px;
+            background: whitesmoke;
+            padding-left: 25px;
+            font-size: 15px;
+        }
+        .content {
+            display: flex;
+            justify-content: space-between;
+        }
+        .column-left {
+            /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f9dff9+0,f2daf2+66,f2b5f3+100,ecd4eb+100 */
+            background: rgb(249,223,249); /* Old browsers */
+            background: -moz-linear-gradient(left, rgba(249,223,249,1) 0%, rgba(242,218,242,1) 66%, rgba(242,181,243,1) 100%, rgba(236,212,235,1) 100%); /* FF3.6-15 */
+            background: -webkit-linear-gradient(left, rgba(249,223,249,1) 0%,rgba(242,218,242,1) 66%,rgba(242,181,243,1) 100%,rgba(236,212,235,1) 100%); /* Chrome10-25,Safari5.1-6 */
+            background: linear-gradient(to right, rgba(249,223,249,1) 0%,rgba(242,218,242,1) 66%,rgba(242,181,243,1) 100%,rgba(236,212,235,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9dff9', endColorstr='#ecd4eb',GradientType=1 ); /* IE6-9 */
+            width: 20%;
+
+        }
+
+        .column-center {
+            width: 60%;
+            padding-top: 80px;
+            padding-left: 5px;
+            padding-right: 5px;
+            background: #F2B5F3;
+        }
+        .column-right {
+            width: 20%;
+            /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ecd4eb+0,f2b5f3+0,f2daf2+34,f9dff9+100 */
+            background: rgb(236,212,235); /* Old browsers */
+            background: -moz-linear-gradient(left, rgba(236,212,235,1) 0%, rgba(242,181,243,1) 0%, rgba(242,218,242,1) 34%, rgba(249,223,249,1) 100%); /* FF3.6-15 */
+            background: -webkit-linear-gradient(left, rgba(236,212,235,1) 0%,rgba(242,181,243,1) 0%,rgba(242,218,242,1) 34%,rgba(249,223,249,1) 100%); /* Chrome10-25,Safari5.1-6 */
+            background: linear-gradient(to right, rgba(236,212,235,1) 0%,rgba(242,181,243,1) 0%,rgba(242,218,242,1) 34%,rgba(249,223,249,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ecd4eb', endColorstr='#f9dff9',GradientType=1 ); /* IE6-9 */
+        }
+        .footer-buffer {
+            height: 100px;
+
+        }
+        .menu {
+            background: whitesmoke;
+            width: 100%;
+            height: 75px;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            justify-content: space-around;
+            align-items: center;
+            align-content: space-between;
+        }
+        a {
+            font-size: larger;
+            font-weight: bold;
+            text-decoration: none;
+            color: #3c293d;
+        }
+        .fa{
+            color: #3c293d;
+            font-weight: bold;
+        }
+
+       /*
+        .item {
+            width: 16%;
+            height: 25px;
+            margin: 5px;
+            color: gray;
+            font-size: medium;
+            font-style: italic;
+        }
+        body {
+            background: #f1c3e7;
+            color: deeppink;
+        }
+        h2 {
+            color: teal;
+            font-style: italic
+        } */
+
+
+    </style>
+</head>
+<body>
+
+    <div class="page-wrapper">
+         <div class="menu">
+             <div class="item hello"> <a href="#about">Саша Вастержинская </a></div>
+             <div class="item work"> <a href="#work">О работе</a></div>
+             <div class="item lern"> <a href="#stady">Об образовании</a></div>
+             <div class="item hobby"> <a href="#hobby">О хобби</a></div>
+         </div>
+        <div class="content">
+            <div class="column column-left"></div>
+            <div class="column column-center">
+                <img src="img/me.jpg" alt="sasha" title="sasha" width="200" align="right" vspace="10px" hspace="10px">
+                <h2> <a id="about"></a> Привет! Меня зовут Саша</h2>
+                Мне 24 года и я живу в Москве. Люблю пить кофе и вязать.
+                Здесь вы найдете мои контактные данные и основную информацию обо мне.
+                <h2> <a id="work"></a>Моя работа</h2>
+                В общей сложности мой стаж насчитывает уже более 6-ти лет. Начинала свою трудовую деятельность с должности делопроизводителя.
+                Моя первая работа научила меня упорству, скурпулезности и отвественности, познакомила с огромным количеством соверщенно разных людей.
+                Сейчас я работаю в проектом офисе. Звучит немного скучно, но на деле моя работа помогает запускать ракеты с космодрома "Восточный".
+                <h2> <a id="stady"></a>Образование</h2>
+                В 2016 году я получила диплом бакалавра университета "Синергия" по специальности проектный менеджмент.
+                Вот уже более 7-ми лет у меня на полке пылится золотая медаль (если у Вас есть хоть какая-то информация как она может пригодиться в жизни, пожалуйста, напишите мне).
+                Но я не останавливаюсь на достигнутом и вот! - Закончен курс в Moscow Coding School.
+                <h2> <a id="hobby"></a>Мое хобби</h2>
+                Почти все свое свободное время я посвящаю вязанию. Ниже мои любимые проекты и описания к ним.
+                <table>
+                    <tbody>
+                    <tr>
+                        <td>
+                            <img src="img/hat.JPG" alt="" title="шляпа" width="200" vspace="5" hspace="5">
+                        </td>
+                        <td> <b>Шляпа ключком из рафии</b> <br>
+                            Рафия - это пальмовое растение с самыми большими листьями! Жители Мадагаскара плетут из ее листьев различные предметы для дома и шляпы.
+                            Конечно, я вязала эту шляпу из специально обрабанной рафии, предназначенной для вязания крючком. и это было очень странно. По первому ущению она похожа на порезанный полосочками пакет и смешно шуршит :)
+                            Зато хорошо держит форму!
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="img/shaul.jpg" alt="" title="шаль" width="200" vspace="5" hspace="5">
+                        </td>
+                        <td>
+                            <b>Хлопковая шаль для бабушки.</b> <br>
+                           Бабушки и шали - понятия для меня неразделимые. И вот она! Легкая, мягкая, с нежным рисунком,
+                            который подчеркивает пастельный цвет и как бы намекает, что девочки они всегда остаются девочками,
+                            даже если у них есть внучки ;)
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="img/cardigan.JPG" alt="" title="кардиган" width="200" vspace="5" hspace="5">
+                        </td>
+                        <td>
+                            <b>Кардиган для сестры.</b> <br> Связан из мериноса ручной окраски. 100% уникальности! Вложила в него все свои нежные чувства. Чтобы согревало в прямом и переноском смысле :)
+
+                        </td>
+                    </tr>
+                    <tr>
+
+                        <td>
+                            <img src="img/socks.JPG" alt="" title="носки" width="200" vspace="5" hspace="5">
+                        </td>
+                        <td>
+                            <b>Носки.</b> <br> Я очень люблю вязать носки! Добавляю в них разноцветные узоры, ажуры или делаю что-то совсем простое.
+                            Дарю, складирую и ношу в сымые суровые зимы или прохладные вечера.
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+
+            </div>
+            <div class="column column-right"></div>
+        </div>
+        <div class="footer-buffer"></div>
+
+    </div>
+    <div class="footer">
+        <div><i class="fa fa-vk" aria-hidden="true"> <a href="https://vk.com/sashabrofist" target=”_blank”>Вастержинская Саша</a> </i>
+        </div>
+        <div>
+            <i class="fa fa-instagram" aria-hidden="true"><a href="https://www.instagram.com/vastersa/" target=”_blank”>@vastersa</a></i>
+        </div>
+        <div>
+            <i class="fa fa-envelope" aria-hidden="true"><a href="mailto: kanc.nk@gmail.com">kanc.nk@gmail.com</a></i>
+        </div>
+
+    </div>
+<!--
+
+    <h3>Вы можете связаться со мной через форму ниже</h3>
+    <form>
+        <p>
+            <label>
+            Фамилия и имя
+                <input type="text" placeholder="Ваше имя">
+            </label>
+        </p>
+        <p>
+            <label>
+                Адрес для обратной связи
+                <input type="email" placeholder="адрес эл. почты" required>
+            </label>
+        </p>
+        <p>
+            <textarea name="" cols="50" rows="5" placeholder="напишите ваш комментарий тут" required></textarea>
+        </p>
+        <p>
+            <input type="submit" value="Отправить">
+        </p>
+    </form>
+    <h3>
+        <a href="mailto: kanc.nk@gmail.com">Или напишите мне письмо</a>
+    </h3>
+    <i class="fa fa-camera-retro fa-5x"></i> fa-5x -->
+</body>
+</html>
